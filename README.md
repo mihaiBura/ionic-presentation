@@ -1,2 +1,2 @@
 # ionic-presentation
-Ionic Framework Presentation
+Ionic Framework Presentation using https://github.com/hakimel/reveal.js
