@@ -1,0 +1,27 @@
+{
+  "name": "ionic-presentation",
+  "version": "1.0.0",
+  "main": [
+    "js/reveal.js",
+    "css/reveal.css"
+  ],
+  "homepage": "http://mihaibura.github.io/ionic-presentation/",
+  "license": "MIT",
+  "description": "Ionic Framework Presentation",
+  "authors": [
+    "Mihai Bura <mihai.bura91@gmail.com>"
+  ],
+  "dependencies": {
+    "headjs": "~1.0.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mihaiBura/ionic-presentation.git"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test"
+  ]
+}
