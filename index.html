@@ -17,6 +17,10 @@
     border: 0px !important;
     box-shadow: 0px 0px 0px #000 !important;
   }
+  
+  .reveal pre {
+    box-shadow: 0px 0px 0px #000 !important;
+  }
   </style>
   <script>
   var link = document.createElement('link');
@@ -84,7 +88,11 @@
       <!-- #5 -->
       <!-- Ionic -->
       <section>
-        <img height="250" data-src="img/ionic.png">
+        <img height="200" data-src="img/ionic.png">
+        <aside class="notes">
+          iunie 2014
+          <br/> aprilie 2015
+        </aside>
       </section>
       <!-- #6 -->
       <!-- Definition -->
@@ -104,7 +112,7 @@
       <!-- #7 -->
       <!-- Ionic -->
       <section>
-        <img height="250" data-src="img/ionic.png">
+        <img height="200" data-src="img/ionic.png" />
       </section>
       <!-- #8 -->
       <!-- Wild -->
@@ -128,6 +136,215 @@
           <br/> ajutor oferit de Ionic
         </aside>
       </section>
+      <!-- #10 -->
+      <!-- Prototype -->
+      <section>
+        <section>
+          <h3>Prototype</h3>
+          <img height="200" data-src="img/prototype.png" />
+          <aside class="notes">
+            client - po - prototip
+            <br/> mvp
+          </aside>
+        </section>
+        <section>
+          <pre>
+            <code>
+              <div class="list">
+                <a class="item item-avatar" href="#">
+                  <img src="mihai.jpg">
+                  <h2>Mihai</h2>
+                  <p>Holy Guacamole!</p>
+                </a>
+              </div>
+            </code>
+          </pre>
+          <img data-src="img/prototype-result.png" />
+        </section>
+      </section>
+      <!-- #11 -->
+      <!-- Develop -->
+      <section>
+        <h3>Develop</h3>
+        <img height="200" data-src="img/webtech.png">
+        <aside class="notes">
+          faza principala
+          <br/> cele mai noi standarde
+        </aside>
+      </section>
+      <section>
+        <!-- #12 -->
+        <!-- Develop / UI -->
+        <section>
+          <h3>UI</h3>
+          <img height="200" data-src="img/colours.png" />
+          <aside class="notes">
+            librarie de componente
+            <br/> bootstrap, foundation, fontawesome
+          </aside>
+        </section>
+        <!-- #13 -->
+        <!-- Colours -->
+        <section>
+          <pre>
+            <code>
+              <div class="bar bar-header bar-positive">
+                <h1 class="title">bar-positive</h1>
+              </div>
+            </code>
+          </pre>
+          <img data-src="img/bar-positive.png" />
+        </section>
+        <!-- #14 -->
+        <!-- Cards -->
+        <section>
+          <pre>
+            <code>
+              <div class="list card">
+                <div class="item item-avatar">
+                  <img src="mcfly.jpg">
+                  <h2>Marty McFly</h2>
+                  <p>November 05, 1955</p>
+                </div>
+                <div class="item item-body">
+                  <img class="full-image" src="delorean.jpg">
+                </div>
+              </div>
+            </code>
+          </pre>
+          <img height="200" data-src="img/card.png">
+        </section>
+        <!-- #15 -->
+        <!-- Cards -->
+        <section>
+          <pre>
+            <code>
+              <!-- single icon -->
+              <i class="icon ion-star"></i>
+              <!-- button with icon -->
+              <button class="button icon-left ion-home">Home</button>
+            </code>
+          </pre>
+          <img data-src="img/icon-star.png">
+          <img data-src="img/button-home.png">
+        </section>
+      </section>
+      <section>
+        <!-- #16 -->
+        <!-- Behaviour -->
+        <section>
+          <h3>Behaviour</h3>
+          <img height="200" data-src="img/angular-cordova.png">
+          <aside class="notes">
+            cordova
+            <br/> angular
+            <br/> ngCordova
+          </aside>
+        </section>
+        <!-- #17 -->
+        <!-- Touch -->
+        <section>
+          <pre>
+            <code>
+              http://ionicframework.com/docs/api/utility/ionic.EventController/
+              <!-- hold -->
+              <button on-hold="onHold()">Test</button>
+              <!-- swipe -->
+              <button on-swipe-right="onSwipeRight()">Test</button>
+            </code>
+          </pre>
+          <img height="200" data-src="img/touch.png">
+          <aside class="notes">
+            mai multe la addr
+          </aside>
+        </section>
+        <!-- #18 -->
+        <!-- Swipe / pull -->
+        <section>
+          <pre>
+            <code>
+              <ion-list>
+                <ion-item>
+                  Wake up!
+                  <ion-option-button class="button-assertive">
+                    Delete
+                  </ion-option-button>
+                </ion-item>
+              </ion-list>
+            </code>
+          </pre>
+          <img height="200" data-src="img/slidetodelete.gif">
+          <aside class="notes">
+            pull to refresh
+            <br/>
+          </aside>
+        </section>
+      </section>
+      <section>
+        <!-- #19 -->
+        <!-- Bling -->
+        <section>
+          <h3>Bling</h3>
+          <img height="200" data-src="img/deploy.png">
+          <img height="200" data-src="img/grade.png">
+          <img height="200" data-src="img/push.png">
+        </section>
+        <!-- #20 -->
+        <!-- Grade -->
+        <section>
+          <pre>
+            <code>
+              .scroll-bar-indicator {
+                background: rgba(0, 0, 0, 0.3);
+                opacity: 1;
+                transition: opacity 0.3s linear; 
+              }
+              .grade-c .scroll-bar-indicator {
+                background: #aaa; 
+              }
+              .scroll-bar-indicator.scroll-bar-fade-out {
+                opacity: 0; 
+              }
+              .grade-c .scroll-bar-indicator.scroll-bar-fade-out {
+                transition: none; 
+              }
+            </code>
+          </pre>
+          <img height="200" data-src="img/grade.png">
+          <aside class="notes">
+            optimizare a experientei
+          </aside>
+        </section>
+        <!-- #21 -->
+        <!-- Push notification -->
+        <section>
+          <pre>
+            <code>
+              to be added
+            </code>
+          </pre>
+          <img height="200" data-src="img/push.png">
+          <aside class="notes">
+            unificare
+          </aside>
+        </section>
+        <!-- #22 -->
+        <!-- Deploy -->
+        <section>
+          <pre>
+            <code>
+              to be added
+            </code>
+          </pre>
+          <img height="200" data-src="img/deploy.png">
+          <aside class="notes">
+            deploy nou
+          </aside>
+        </section>
+      </section>
+      <!--  -->
+      <!--  -->
+      <!--  -->
       <!-- Example of nested vertical slides -->
       <!-- <section>
   <section>
