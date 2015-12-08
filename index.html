@@ -285,9 +285,9 @@
         <!-- Bling -->
         <section>
           <h3>Bling</h3>
-          <img height="200" data-src="img/deploy.png">
           <img height="200" data-src="img/grade.png">
           <img height="200" data-src="img/push.png">
+          <img height="200" data-src="img/deploy.png">
         </section>
         <!-- #20 -->
         <!-- Grade -->
@@ -320,7 +320,16 @@
         <section>
           <pre>
             <code>
-              to be added
+              var push = new Ionic.Push({
+                "debug": true,
+                "onNotification": function(notification) {
+                  var payload = notification.payload;
+                  console.log(notification, payload);
+                },
+                "onRegister": function(data) {
+                  console.log(data.token);
+                }
+              });
             </code>
           </pre>
           <img height="200" data-src="img/push.png">
@@ -333,12 +342,20 @@
         <section>
           <pre>
             <code>
-              to be added
+              var deploy = new Ionic.Deploy();
+              // Promises 
+              deploy.check();
+              deploy.download();
+              deploy.extract();
+              deploy.update();
+              // not a Promise
+              deploy.load();
             </code>
           </pre>
           <img height="200" data-src="img/deploy.png">
           <aside class="notes">
             deploy nou
+            <br/> binar neschimbat
           </aside>
         </section>
       </section>
